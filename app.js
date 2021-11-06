@@ -33,7 +33,7 @@ class UI{
     }
     static showAlert(message, className){
         const div = document.createElement("div")
-        div.classList = `notification py-2 px-5 my-5 is-${className}`
+        div.classList = `notification is-size-1 py-2 px-5 my-5 is-${className}`
         div.appendChild(document.createTextNode(message))
         const container = document.querySelector(".container")
         const form = document.querySelector("#book-form")
